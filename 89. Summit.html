@@ -1,0 +1,44 @@
+<!-- BacRR -->
+<div class="container">
+  <div class="triangle"></div>
+  <div class="circle">
+    <div class="triangle-inside"></div>
+  </div>
+</div>
+<style>
+  body {
+    margin: 0;
+  }
+  .container {
+    background: #191919;
+    height: 100%;
+    width: 100%;
+  }
+  .circle {
+    background: #F9E492;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    overflow: hidden;
+  }
+  .triangle-inside {
+    top: 150px;
+    position: absolute;
+    background: #191919;
+    width: 200px;
+    height: 200px;
+    transform: rotate(45deg);
+  }
+  .triangle {
+    width: 200px;
+    height: 200px;
+    background: #4F77FF;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 100px;
+    bottom: -100px;
+  }
+</style>
